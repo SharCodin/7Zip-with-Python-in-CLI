@@ -5,14 +5,7 @@ from timeit import default_timer as Timer
 def delete_credit(working_dir: str):
     startTimer = Timer()
     nameList = [
-        "girlcelly@[Anime-sharing.com].txt",
-        "H-Game uploaded by baka girlcelly - NemuAndHaruka.txt",
-        "NemuAndHaruka.png",
-        "Game uploaded by baka girlcelly - NemuAndHaruka.txt",
-        "OTOMI",
-        "OTOMI-GAMES.COM.url",
-        "WWW.OVAGAMES.COM.url",
-        "codex.nfo"
+        
     ]
     top: str = working_dir
     number_of_files_deleted = 0
